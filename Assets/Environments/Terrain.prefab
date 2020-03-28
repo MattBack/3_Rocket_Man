@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65639244054208538}
   - component: {fileID: 23393958252706610}
   m_Layer: 0
-  m_Name: Launch Pad
+  m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
