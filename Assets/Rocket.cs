@@ -91,6 +91,7 @@ public class Rocket : MonoBehaviour
         audioSource.Stop();
         audioSource.PlayOneShot(death);
         deathParticles.Play();
+        // destroy MenuAudio which will load on first level again
         Invoke("LoadFirstLevel", levelLoadDelay);
     }
 
